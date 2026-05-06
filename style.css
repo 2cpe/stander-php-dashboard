@@ -1,0 +1,36 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="phone"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #3b5998;
+    margin: 5px;
+    background-color: #1b1b1b;
+
+}
+
+input[type="submit"] {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+hr {
+    color: #36363644;
+    border: solid #3b5998;
+    border-width: 2px;
+    border-radius: 25px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 0px 25px #3b5998;
+}
